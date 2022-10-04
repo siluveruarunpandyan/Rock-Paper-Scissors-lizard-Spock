@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,900&display=swap');
+
+font-family: 'Poppins', sans-serif;
+
+*,
+*::before,
+::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root{
+    --clr-dark: #1c2042;
+    --clr-white: #fff;
+    --max-width: 1140px;
+}
+
+/* pseudo elements in css */
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Poppins', sans-serif; 
+    background-color: #acd8eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* global CSS */
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+html{
+    font-size: 16px;
+}
+
+.btn{
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    margin-top: 0.5rem;
+    text-transform:capitalize ;
+    font-size: 1.25rem;
+    font-family: 600;
+    cursor: pointer;
+    background-color: #1c2042;
+    color: #fff;
+    border: 2px solid #1c2042;
+}
+.game-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 218, 243);
+    border-radius: 10px;
+    width: 26.5rem;
+    min-width: 30rem;
+    height: 25rem;
+    
+}
+.game-details h2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 1.5rem;
+}
+
+.score-container{
+    display: flex;   
+    text-align: center;
+    justify-content: space-between;
+}
+
+.weapons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn-weapon{
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--clr-dark);
+    background-color: var(--clr-white);
+    transition: all 0.5s ease;
+}
+
+.btn-weapon:hover{
+    color: var(--clr-white);
+    background-color: var(--clr-dark);
+
+}
+
+.result-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    min-height: 3.5rem;
+}
