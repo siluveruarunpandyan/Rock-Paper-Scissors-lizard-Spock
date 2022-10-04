@@ -22,22 +22,22 @@
     <div class="score-container">
         <div class="userscore">
             <p class="userscore" >User score </p>
-            <span id="userscore">0</span>
+            <span id="user-score">0</span>
 
         </div>
         <div class="compscore">
             <p class="compscore">computer score </p>
-            <span id="compscore" >0</span>
+            <span id="comp-score" >0</span>
         </div>
         
     </div>
 </div>
 <div class="weapons">
-    <button class="btn-weapon"><i class="fa-solid fa-hand-back-fist"></i></button>
-    <button class="btn-weapon"><i class="fa-solid fa-hand"></i></button>
-    <button class="btn-weapon"><i class="fa-solid fa-hand-scissors"></i></button>
-    <button class="btn-weapon"><i class="fa-solid fa-hand-lizard"></i></button>
-    <button class="btn-weapon"><i class="fa-solid fa-hand-spock"></i></button>
+    <button class="btn-weapon" onclick="playGame('rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+    <button class="btn-weapon" onclick="playGame('paper')"><i class="fa-solid fa-hand"></i></button>
+    <button class="btn-weapon" onclick="playGame('scissors')"><i class="fa-solid fa-hand-scissors"></i></button>
+    <button class="btn-weapon" onclick="playGame('lizard')"><i class="fa-solid fa-hand-lizard"></i></button>
+    <button class="btn-weapon" onclick="playGame('spock')"><i class="fa-solid fa-hand-spock"></i></button>
 </div>
 <div class="result-container">
     <p id="user-choice"></p>
@@ -46,6 +46,6 @@
 </div>
 
     </main>
-    
+    <script src="./javascript/script.js"></script>
 </body>
 </html>
