@@ -26,6 +26,19 @@ const getCompChoice = function(){
     return randomChoice;
     
 }
+const getResult = function(userChoice, compChoice){
+    if(userChoice === 'rock'){
+        if(compChoice === 'rock'){
+            return 'Draw';
+        }else if(compChoice === 'paper'){
+            return 'lost';
+        }else if(compChoice === 'scissors'){
+            return 'won';
+        }else if(compChoice === 'lizard'){
+            return
+        }
+    }
+}
 
 
 const playGame = function(weapons){
